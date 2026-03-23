@@ -1,17 +1,28 @@
 body{
-font-family:Arial,Helvetica,sans-serif;
+font-family:Arial, Helvetica, sans-serif;
 margin:0;
-background:#f5e9e2;
-color:#3e2723;
+background:#2b0004;
+color:#f5d6d6;
 }
 
 /* HEADER */
 
 header{
-background:#6d4c41;
-color:#fff3e0;
-padding:40px;
+background:linear-gradient(180deg,#5a0008,#2b0004);
+color:#ffb3b3;
+padding:50px 20px;
 text-align:center;
+letter-spacing:3px;
+}
+
+header h1{
+margin:0;
+font-size:40px;
+}
+
+header p{
+margin-top:10px;
+color:#ffd6d6;
 }
 
 /* CONTENIDO */
@@ -25,54 +36,57 @@ padding:20px;
 /* TITULOS */
 
 h2{
-border-bottom:3px solid #a1887f;
+color:#ff8a8a;
+border-bottom:2px solid #a00018;
 padding-bottom:5px;
-color:#5d4037;
+margin-top:40px;
 }
 
 /* TARJETAS */
 
 .card{
-background:#fff8f5;
+background:#3a0006;
 padding:15px;
 margin:12px 0;
 border-radius:10px;
-box-shadow:0 3px 8px rgba(60,30,20,0.15);
-border-left:6px solid #8d6e63;
-}
-
-/* BOTONES */
-
-a.button{
-display:inline-block;
-background:#a8432b;
-color:white;
-padding:10px 15px;
-border-radius:6px;
-text-decoration:none;
-transition:0.3s;
-}
-
-a.button:hover{
-background:#7a2f1d;
+box-shadow:0 0 10px rgba(255,0,60,0.2);
+border-left:5px solid #ff4d6d;
 }
 
 /* LINKS */
 
 a{
-color:#8e3b2e;
+color:#ff6b81;
+text-decoration:none;
 }
 
 a:hover{
-color:#5d1f14;
+color:#ffffff;
+}
+
+/* BOTON */
+
+a.button{
+display:inline-block;
+background:linear-gradient(90deg,#ff4d6d,#a00018);
+color:white;
+padding:10px 15px;
+border-radius:6px;
+margin-top:10px;
+transition:0.3s;
+}
+
+a.button:hover{
+background:linear-gradient(90deg,#ff6b81,#ff1744);
 }
 
 /* FOOTER */
 
 footer{
-background:#4e342e;
-color:#fbe9e7;
+background:#1a0003;
+color:#ffb3b3;
 text-align:center;
 padding:20px;
-margin-top:30px;
+margin-top:40px;
+border-top:2px solid #a00018;
 }
