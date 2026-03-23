@@ -63,7 +63,13 @@ text-decoration:none;
 a:hover{
 color:#ffffff;
 }
-
+.logo{
+max-height:200px;
+width:auto;
+height:auto;
+margin-bottom:10px;
+filter:drop-shadow(0 0 8px rgba(255,80,100,0.5));
+}
 /* BOTON */
 
 a.button{
